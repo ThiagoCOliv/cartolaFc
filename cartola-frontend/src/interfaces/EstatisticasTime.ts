@@ -1,0 +1,33 @@
+export interface EstatisticasTime {
+  jogos: number;
+  jogos_em_casa: number;
+  jogos_fora: number;
+  xg: number;
+  xg_contra: number;
+  xg_casa: number;
+  xg_fora: number;
+  xg_contra_casa: number;
+  xg_contra_fora: number;
+  gols_pro: number;
+  gols_contra: number;
+  gols_pro_casa: number;
+  gols_pro_fora: number;
+  gols_contra_casa: number;
+  gols_contra_fora: number;
+  xg_medio: number;
+  xg_medio_casa: number;
+  xg_medio_fora: number;
+  xg_medio_contra: number;
+  xg_medio_contra_casa: number;
+  xg_medio_contra_fora: number;
+  media_de_gols_pro: number;
+  media_de_gols_pro_casa: number;
+  media_de_gols_pro_fora: number;
+  media_de_gols_contra: number;
+  media_de_gols_contra_casa: number;
+  media_de_gols_contra_fora: number;
+  media_xg_pro_recente: number;
+  media_xg_contra_recente: number;
+  media_gols_pro_recente: number;
+  media_gols_contra_recente: number;
+}
