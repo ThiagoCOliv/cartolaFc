@@ -1,0 +1,17 @@
+{
+  "name": "start-both",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start:backend": "cd cartola-backend && npm run dev",
+    "start:frontend": "cd cartola-frontend && npm run dev",
+    "start": "npx concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "dev": "npm run start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
